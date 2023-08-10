@@ -1,0 +1,25 @@
+@import url("./variables.css");
+
+@keyframes --sm--animation-wave {
+    to {
+      background-position-x: var(--sm-animation-wave-background-position-x);
+    }
+  }
+  
+  @keyframes --sm--animation-wave-reverse {
+    to {
+      background-position-x: var(--sm-animation-wave-reverse-background-position-x);
+    }
+  }
+  
+  @keyframes --sm--animation-pulse {
+    0% {
+      opacity: var(--sm-animation-pulse-percentage-0);
+    }
+    50% {
+      opacity: var(--sm-animation-pulse-percentage-50);
+    }
+    100% {
+      opacity: var(--sm-animation-pulse-percentage-100);
+    }
+  }
